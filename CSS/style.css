@@ -50,6 +50,14 @@ h2{
     margin-right: auto;
     width: 70%;
 }
+.konten p {
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 45px;
+    text-align: justify;
+}
 
 
 h3 {
