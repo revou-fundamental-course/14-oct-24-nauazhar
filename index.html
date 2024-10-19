@@ -8,30 +8,50 @@
 </head>
 
 <body>
-    <!-- Logo dan Navigasi bar -->
+
     <header>
         <nav>
-            <!-- Logo RevoU -->
-                <img src="asset/Logo-RevoU-5.jpg" class="logo">
-                
-                <!-- Navigasi Bar -->
-                <a href="">Home</a>
-                <a href="">Our Profile</a>
-                <a href="">Portofolio</a>
-                <a href="">Massage</a>
+            <ul>
+                <img class="logo" src="asset/Logo-RevoU-5.jpg">
+                <li><a href="">Home</a></li>
+                <li><a href="">Our Profile</a></li>
+                <li><a href="">Portofolio</a></li>
+                <li><a href="">Massage</a></li>
+            </ul>    
         </nav>
 
         <h1>Hi Naufal, Welcome to Website</h1>
         <h2>This is my first practice website</h2>
+        <img class="revoU" src="asset/Konten.jpg"> 
 
     </header>
     <main>
-        <h1>Our Headquarter</h1>
-            <img class="jkt" src="asset/Jakarta.jpg">
-            <img class="bdg" src="asset/Bandung.jpg">
-            <img class="sby" src="asset/Surabaya.jpg">
+        <h3>Our Headquarter</h3>    
+        <div class="image">
+            <img class="img" src="asset/Jakarta.jpg" alt="Jakarta">
+            <img class="img" src="asset/Bandung.jpg" alt="Bandung">
+            <img class="img" src="asset/Surabaya.jpg" alt="Surabaya">
+        </div>
         
     </main>
+
+    <div>
+        <h4>Massage Us</h4>
+        <form name="myform" action=" " method=" ">
+            <table class="form">
+                <tr><td>Nama : </td><td> <input type="text" name="nama" size=""> </td>
+                </tr>
+                <tr><td>Tanggal Lahir : </td><td> <input type="date" name="tlahir" size=""> </td>
+                </tr>
+                <tr><td>Jenis Kelamin : </td><td> <input type="radio" name="kelamin" size="">Laki - Laki <input type="radio" name="perempuan" size="">Perempuan</td>
+                </tr>
+                <tr><td>Pesan : </td><td><textarea name="pesan"></textarea></td>
+                </tr>
+            
+            </table>
+        </form>
+    </div>
+
     <footer>
 
     </footer>
