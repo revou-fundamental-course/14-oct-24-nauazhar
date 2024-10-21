@@ -4,7 +4,7 @@ body {
     background-color: white;
 }
 
-/* Navigasi bar */
+/* Navigasi Bar */
 ul {
     list-style-type: none;
     margin: 0;
@@ -38,7 +38,7 @@ li a:hover {
     border-radius: 5px;
 }
     
-/* konten */
+/* Section Konten & Artikel */
 h1 {
     font-size: 25px;
     font-family: sans-serif;
@@ -66,7 +66,7 @@ h2{
     text-align: justify;
 }
 
-/* Headquarter */
+/* Section Headquarter */
 h3 {
     font-size: 25px;
     font-family: sans-serif;
@@ -86,7 +86,7 @@ h3 {
     border-radius: 50%;
 }
 
-/* From Section */
+/* Section Form & Massage */
 h4 {
     font-size: 25px;
     font-family: sans-serif;
