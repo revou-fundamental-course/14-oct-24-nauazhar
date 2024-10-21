@@ -1,9 +1,9 @@
 
-function replaceName() {
-    let name = prompt("Halo. Siapa nama anda?", "");
-    document.getElementById("name").innerHTML = name
-}
-replaceName();
+//function replaceName() {
+  //  let name = prompt("Halo. Siapa nama anda?", "");
+    //document.getElementById("name").innerHTML = name
+//}
+//replaceName();
 
 function validateForm() {
     const name = document.forms["massage-form"]["full-name"].value;
@@ -11,7 +11,7 @@ function validateForm() {
     const gender = document.forms["massage-form"]["gander"].value;
     const massage = document.forms["massage-form"]["massages"].value;
 
-    if (name == "" || birthdate == "" || gender == "" || massage == "" ||) {
+    if (name == "" || birthdate == "" || gender == "" || massage == "") {
         alert("Tidak Boleh ada yang kosong");
         return false;
     }
