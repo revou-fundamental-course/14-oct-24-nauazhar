@@ -86,17 +86,37 @@ h3 {
     border-radius: 50%;
 }
 
-/* Section Form & Massage */
-h4 {
+div h1 {
     font-size: 25px;
     font-family: sans-serif;
     margin-left: 90px;
     margin-top: 120px;
 }
-.form {
-    font-size: 15px;
-    font-family: sans-serif;
-    margin-left: 90px;
+
+/* Section Form & Massage */
+form {
+    margin: 95px;
+}
+
+form .nama {
+    margin-left: 122px;
+}
+form .tlahir {
+    margin-left: 70px;
+    margin-top: 15px;
+}
+form .jkelamin {
+    margin-left: 70px;
+    margin-top: 15px;
+}
+
+form .pesan {
+    margin-left: 122px;
+    margin-top: 15px;
+}
+
+.button {
+    margin-top: 15px;
 }
 
 /* Footer */

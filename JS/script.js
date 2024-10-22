@@ -1,9 +1,9 @@
 
-function replaceName() {
-    let name = prompt("Halo. Siapa nama anda?", "");
-    document.getElementById("name").innerHTML = name
-}
-replaceName();
+// function replaceName() {
+    // let name = prompt("Halo. Siapa nama anda?", "");
+    // document.getElementById("name").innerHTML = name
+// }
+// replaceName();
 
 function validateForm() {
     const name = document.forms["massage-form"]["full-name"].value;
