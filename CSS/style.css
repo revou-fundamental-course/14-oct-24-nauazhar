@@ -1,10 +1,7 @@
-
-/* CSS */
 body {
     background-color: white;
 }
 
-/* Navigasi Bar */
 ul {
     list-style-type: none;
     margin: 0;
@@ -38,7 +35,6 @@ li a:hover {
     border-radius: 5px;
 }
     
-/* Section Konten & Artikel */
 h1 {
     font-size: 25px;
     font-family: sans-serif;
@@ -66,7 +62,6 @@ h2{
     text-align: justify;
 }
 
-/* Section Headquarter */
 h3 {
     font-size: 25px;
     font-family: sans-serif;
@@ -93,7 +88,6 @@ div h1 {
     margin-top: 120px;
 }
 
-/* Section Form & Massage */
 form {
     margin: 95px;
 }
@@ -119,7 +113,6 @@ form .pesan {
     margin-top: 15px;
 }
 
-/* Footer */
 footer {
     margin-top: 120px;
     margin-bottom: 25px;
